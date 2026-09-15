@@ -1,164 +1,118 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portafolio de constructor de Minecraft especializado en recreación de construcciones.">
-  <title>Builder Portfolio — Minecraft</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portafolio de constructor de Minecraft especializado en recreación de construcciones.">
+<title>Minecraft Builder — Portafolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="noise"></div>
-  <div class="cursor-glow"></div>
+<div class="noise"></div><div class="cursor-glow"></div>
 
-  <header class="nav">
-    <a class="brand" href="#inicio" aria-label="Inicio">
-      <span class="brand-mark">B</span>
-      <span>BUILDER<span class="muted">/PORTFOLIO</span></span>
-    </a>
-    <nav>
-      <a href="#proyectos">Proyectos</a>
-      <a href="#sobre-mi">Sobre mí</a>
-      <a href="#contacto">Contacto</a>
-    </nav>
-  </header>
+<header class="nav">
+  <a class="brand" href="#inicio"><span class="brand-mark">B</span><span>BUILDER<span class="muted">/PORTFOLIO</span></span></a>
+  <nav><a href="#proyectos">Proyectos</a><a href="#sobre-mi">Sobre mí</a><a href="#contacto">Contacto</a></nav>
+</header>
 
-  <main>
-    <section id="inicio" class="hero">
-      <div class="hero-grid"></div>
-      <div class="hero-copy reveal">
-        <p class="eyebrow"><span></span> MINECRAFT BUILDER</p>
-        <h1>CONSTRUYO.<br><em>RECREO.</em><br>DETALLO.</h1>
-        <p class="hero-text">
-          Constructor de Minecraft de nivel intermedio, especializado en la
-          <strong>recreación de construcciones</strong> y en transformar referencias
-          visuales en escenarios jugables con identidad propia.
-        </p>
-        <div class="hero-actions">
-          <a class="button primary" href="#proyectos">Ver proyectos <span>↘</span></a>
-          <a class="button ghost" href="#contacto">Contactarme</a>
-        </div>
+<main>
+<section id="inicio" class="hero">
+  <div class="hero-grid"></div>
+  <div class="hero-copy reveal">
+    <p class="eyebrow"><span></span>MINECRAFT BUILDER</p>
+    <h1>CONSTRUYO.<br><em>RECREO.</em><br>DETALLO.</h1>
+    <p class="hero-text">Soy constructor de Minecraft de nivel intermedio y me especializo en recrear construcciones a partir de referencias, series y proyectos.</p>
+    <div class="hero-actions"><a class="button primary" href="#proyectos">Ver proyectos <span>↘</span></a><a class="button ghost" href="#contacto">Contactarme</a></div>
+  </div>
+  <div class="hero-image reveal delay-1">
+    <div class="image-frame"><img src="assets/fortaleza-nether.png" alt="Construcción de Minecraft"><div class="image-label"><span>01</span><span>RECREACIÓN / INFERNO</span></div></div>
+  </div>
+  <div class="scroll-hint"><span></span>SCROLL PARA EXPLORAR</div>
+</section>
+
+<section class="statement reveal">
+  <p class="eyebrow">MI FORMA DE CONSTRUIR</p>
+  <h2>Intento que cada recreación se sienta como la original,<br><span>pero hecha para Minecraft.</span></h2>
+</section>
+
+<section id="proyectos" class="projects section">
+  <div class="section-head reveal">
+    <div><p class="eyebrow"><span></span>MI TRABAJO</p><h2>PROYECTOS</h2></div>
+    <p class="section-note">Recreaciones y construcciones propias hechas en Minecraft.</p>
+  </div>
+
+  <div class="category-head reveal">
+    <div><span class="category-number">01</span><div><p class="eyebrow">RECREACIONES</p><h3>CONSTRUCCIONES RECREADAS</h3></div></div>
+    <p>Construcciones que recreo a partir de series, proyectos y referencias.</p>
+  </div>
+
+  <div class="project-list">
+    <article class="project featured reveal">
+      <div class="project-media"><img src="assets/fortaleza-nether.png" alt="Castillo del Dedsafio Minecraft II en un entorno de lava"><div class="project-number">01</div></div>
+      <div class="project-info">
+        <p class="project-type">DEDSAFIO MINECRAFT II · INFERNO</p><h3>Inferno</h3>
+        <p>El castillo del Dedsafio Minecraft II. Recreado. Aún no está terminado, pero está muy avanzado.</p>
+        <div class="tags"><span>RECREACIÓN</span><span>CASTILLO</span><span>EN PROGRESO</span></div>
       </div>
+    </article>
 
-      <div class="hero-image reveal delay-1">
-        <div class="image-frame">
-          <img src="assets/fortaleza-nether.png" alt="Construcción de una fortaleza en un entorno de lava en Minecraft">
-          <div class="image-label">
-            <span>01</span>
-            <span>RECREACIÓN / FORTALEZA</span>
-          </div>
-        </div>
+    <article class="project reveal">
+      <div class="project-media"><img src="assets/templo-volcanico.png" alt="Gulag de Mortal Kombat Dedsafio Minecraft II"><div class="project-number">02</div></div>
+      <div class="project-info">
+        <p class="project-type">MORTAL KOMBAT · DEDSAFIO MINECRAFT II</p><h3>Mortal Kombat GULAG</h3>
+        <p>Gulag de Mortal Kombat para Dedsafio Minecraft II.</p>
+        <div class="tags"><span>RECREACIÓN</span><span>MORTAL KOMBAT</span><span>DEDSAFIO II</span></div>
       </div>
+    </article>
 
-      <div class="scroll-hint"><span></span> SCROLL PARA EXPLORAR</div>
-    </section>
-
-    <section class="statement reveal">
-      <p class="eyebrow">ENFOQUE</p>
-      <h2>Mi objetivo no es solo construir,<br><span>es conseguir que una referencia se sienta real dentro de Minecraft.</span></h2>
-    </section>
-
-    <section id="proyectos" class="projects section">
-      <div class="section-head reveal">
-        <div>
-          <p class="eyebrow"><span></span> TRABAJOS SELECCIONADOS</p>
-          <h2>PROYECTOS</h2>
-        </div>
-        <p class="section-note">Una selección de construcciones y recreaciones.</p>
+    <article class="project reveal">
+      <div class="project-media"><img src="assets/montana-dedsafio-ii.png" alt="Montaña Dedsafio II"><div class="project-number">03</div></div>
+      <div class="project-info">
+        <p class="project-type">DEDSAFIO MINECRAFT II</p><h3>Montaña DEDSAFIO II</h3>
+        <p>La montaña donde los jugadores aparecen.</p>
+        <div class="tags"><span>RECREACIÓN</span><span>PAISAJE</span><span>DEDSAFIO II</span></div>
       </div>
+    </article>
+  </div>
 
-      <div class="project-list">
-        <article class="project featured reveal">
-          <div class="project-media">
-            <img src="assets/fortaleza-nether.png" alt="Fortaleza de Minecraft sobre lava">
-            <div class="project-number">01</div>
-          </div>
-          <div class="project-info">
-            <p class="project-type">RECREACIÓN · FANTASÍA</p>
-            <h3>Fortaleza de lava</h3>
-            <p>
-              Construcción monumental centrada en simetría, escala, composición
-              y contraste entre piedra oscura y lava.
-            </p>
-            <div class="tags">
-              <span>DETALLE</span><span>ESCALA</span><span>AMBIENTACIÓN</span>
-            </div>
-          </div>
-        </article>
+  <div class="category-head own-category reveal">
+    <div><span class="category-number">02</span><div><p class="eyebrow">CONSTRUCCIONES PROPIAS</p><h3>MIS CONSTRUCCIONES</h3></div></div>
+    <p>Construcciones que diseño desde cero. Aquí iremos agregando los próximos proyectos.</p>
+  </div>
+  <div class="empty-builds reveal"><span>PRÓXIMAMENTE</span><h3>NUEVAS CONSTRUCCIONES</h3><p>Esta sección ya está preparada para tus siguientes construcciones.</p></div>
+</section>
 
-        <article class="project reveal">
-          <div class="project-media">
-            <img src="assets/templo-volcanico.png" alt="Templo de Minecraft entre montañas y vegetación">
-            <div class="project-number">02</div>
-          </div>
-          <div class="project-info">
-            <p class="project-type">RECREACIÓN · ASIÁTICO</p>
-            <h3>Templo entre montañas</h3>
-            <p>
-              Escenario trabajado alrededor del paisaje, la arquitectura oriental
-              y la integración de la construcción con el terreno.
-            </p>
-            <div class="tags">
-              <span>PAISAJE</span><span>ARQUITECTURA</span><span>COMPOSICIÓN</span>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
+<section id="sobre-mi" class="about section">
+  <div class="about-card reveal">
+    <p class="eyebrow"><span></span>SOBRE MÍ</p>
+    <h2>CONSTRUCTOR<br><em>INTERMEDIO</em></h2>
+    <p class="about-copy">Me especializo en recrear construcciones de series famosas mediante directos completos. Intento que mis construcciones queden cerca de la referencia original, normalmente alrededor de un 80% en proporciones y tamaños, y siempre trato de meterles mi propio detalle.</p>
+    <div class="skills">
+      <div class="skill"><span>01</span><strong>Recreación de construcciones</strong><small>REFERENCIAS → MINECRAFT</small></div>
+      <div class="skill"><span>02</span><strong>Arquitectura y estructuras</strong><small>FORMAS · PROPORCIONES · DETALLE</small></div>
+      <div class="skill"><span>03</span><strong>Ambientación</strong><small>TERRENO · PAISAJE · COMPOSICIÓN</small></div>
+    </div>
+  </div>
+</section>
 
-    <section id="sobre-mi" class="about section">
-      <div class="about-card reveal">
-        <p class="eyebrow"><span></span> SOBRE MÍ</p>
-        <h2>CONSTRUCTOR<br><em>INTERMEDIO</em></h2>
-        <p class="about-copy">
-          Me especializo en recrear construcciones a partir de imágenes,
-          referencias o conceptos. Mi enfoque está en mantener las formas,
-          proporciones y elementos visuales importantes de una referencia,
-          adaptándolos al lenguaje de Minecraft.
-        </p>
+<section class="process section reveal">
+  <div class="section-head"><div><p class="eyebrow"><span></span>CÓMO TRABAJO</p><h2>PROCESO</h2></div></div>
+  <div class="process-grid">
+    <div><span>01</span><h3>REFERENCIA</h3><p>Primero veo bien la referencia y saco las partes más importantes de la construcción.</p></div>
+    <div><span>02</span><h3>BLOQUEO</h3><p>Empiezo por las formas grandes para que la construcción tenga las proporciones correctas.</p></div>
+    <div><span>03</span><h3>DETALLE</h3><p>Después voy metiendo bloques, detalles, decoración y todo lo que le da vida.</p></div>
+    <div><span>04</span><h3>REVISIÓN</h3><p>Al final comparo todo con la referencia y voy corrigiendo lo que haga falta.</p></div>
+  </div>
+</section>
 
-        <div class="skills">
-          <div class="skill"><span>01</span><strong>Recreación de construcciones</strong><small>REFERENCIAS → MINECRAFT</small></div>
-          <div class="skill"><span>02</span><strong>Arquitectura y estructuras</strong><small>FORMAS · PROPORCIONES · DETALLE</small></div>
-          <div class="skill"><span>03</span><strong>Ambientación</strong><small>TERRENO · PAISAJE · COMPOSICIÓN</small></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="process section reveal">
-      <div class="section-head">
-        <div>
-          <p class="eyebrow"><span></span> CÓMO TRABAJO</p>
-          <h2>PROCESO</h2>
-        </div>
-      </div>
-      <div class="process-grid">
-        <div><span>01</span><h3>REFERENCIA</h3><p>Analizo la construcción, sus proporciones, silueta y elementos principales.</p></div>
-        <div><span>02</span><h3>BLOQUEO</h3><p>Construyo las formas generales antes de entrar en los detalles.</p></div>
-        <div><span>03</span><h3>DETALLE</h3><p>Añado materiales, profundidad, decoración y elementos secundarios.</p></div>
-        <div><span>04</span><h3>REVISIÓN</h3><p>Ajusto escala, composición y acabado para acercarme a la referencia.</p></div>
-      </div>
-    </section>
-
-    <section id="contacto" class="contact section reveal">
-      <div class="contact-inner">
-        <p class="eyebrow">¿TIENES UN PROYECTO?</p>
-        <h2>HABLEMOS<br><em>DE TU CONSTRUCCIÓN.</em></h2>
-        <p>Estoy disponible para proyectos de construcción y recreación dentro de Minecraft.</p>
-        <a class="button primary big" href="mailto:tu-correo@ejemplo.com">Contactarme <span>↗</span></a>
-        <p class="replace-note">Cambia este correo por el tuyo antes de publicar.</p>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <span>© 2026 · MINECRAFT BUILDER</span>
-    <span>BUILT WITH BLOCKS.</span>
-  </footer>
-
-  <script src="script.js"></script>
+<section id="contacto" class="contact section reveal">
+  <div class="contact-inner"><p class="eyebrow">¿TIENES UN PROYECTO?</p><h2>HABLEMOS<br><em>DE TU CONSTRUCCIÓN.</em></h2><p>Si necesitas una construcción o una recreación para un proyecto de Minecraft, puedes contactarme.</p><a class="button primary big" href="mailto:tu-correo@ejemplo.com">Contactarme <span>↗</span></a><p class="replace-note">Cambia este correo por el tuyo antes de publicar.</p></div>
+</section>
+</main>
+<footer><span>© 2026 · MINECRAFT BUILDER</span><span>BUILT WITH BLOCKS.</span></footer>
+<script src="script.js"></script>
 </body>
 </html>
